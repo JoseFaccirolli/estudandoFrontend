@@ -1,0 +1,85 @@
+/*
+    Cores:
+  #4a0000
+  #540b06
+  #5f160a
+  #69200e
+  #742910
+  #893d1e
+  #a65b3a
+  #c47956
+  #e19974
+  #ffb993
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: #DE967A;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #893d1e;
+    color: #3A1100;
+    width: 100%;
+    height: 8%;
+    position: fixed; /*Mantém o elemento fixo na tela*/
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+footer {
+    background-color: #893d1e;
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #DE967A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: #FFE1D5;
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #B46545;
+    color: #FFE1D5;
+    border: solid 1px #3A1100;
+    border-radius: 15px;
+    min-width: 120px;
+    padding: 15px 0px;
+    font-size: 14pt;
+}
+
+p {
+    font-size: 15pt;
+}
+
+.informacoes {
+    width: 70%;
+}
