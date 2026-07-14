@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #010E1F;
+  color: white
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+
+  background-color: #031A39;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+main {
+  background-color: #010E1F;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  bottom: 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 80px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  transition:.3s;
+}
+
+nav a:hover{
+  color:#60A5FA;
+}
+
+
+li {
+  list-style: none;
+}
+
+.container{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #010E1F;
+  color: #B3AEAE;
+  min-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.benefits {
+  min-height: 100vh;
+  background-color: #163969;
+}
+
+.benefits-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.cta-button {
+  border: none;
+  background-color: #311557;
+  color: #c5bebe;
+  padding: 16px 32px;
+  border-radius: 10px;
+  max-width: 20vw;
+  box-shadow: 2px 2px 0 #0000008c;
+  
+  font-size:1rem;
+  font-weight:600;
+  transition:.3s;
+  cursor:pointer;
+}
